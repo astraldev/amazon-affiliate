@@ -1,11 +1,8 @@
 <template>
-  <div class="h-screen w-screen bg-gradient-to-tr from-blue-400 to-cyan-500">
-    <div class="h-1/2 justify-end flex flex-col">
+  <div class="h-[50vh] w-screen bg-gradient-to-tr from-blue-400 to-cyan-500">
+    <div class="h-full justify-end flex flex-col">
       <h2 class="text-5xl md:text-6xl md:py-4 pl-8 md:pl-10 text-white font-exo font-bold text-left">Ed's Recommends</h2>
       <span ref="typed" class="text-sm h-16 inline w-4/5 font-inconsolata text-left self-center uppercase text-gray-100 pl-9 mr-auto"></span>
-    </div>
-    <div class="h-1/2">
-
     </div>
   </div>
 </template>
